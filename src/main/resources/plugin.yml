@@ -1,0 +1,13 @@
+name: InventoryCharm
+version: 1.0.0
+main: com.example.inventorycharm.InventoryCharmPlugin
+api-version: '1.21'
+commands:
+  invcharm:
+    description: Give an Inventory Charm to a player
+    permission: inventorycharm.admin
+    usage: /invcharm give <player> [amount]
+permissions:
+  inventorycharm.admin:
+    default: op
+    
